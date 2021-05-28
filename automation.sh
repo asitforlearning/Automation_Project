@@ -99,7 +99,7 @@ fi
 
 
 ##changes for Version 2  / task 3 START  creating crontab entry
-jobs_temp_file=\tmp\cronf_file
+jobs_temp_file=/tmp/cronf_file
 #store existing jobs to cron file
 crontab -l>${jobs_temp_file}
 cron_file_exists=$?
